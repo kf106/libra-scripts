@@ -26,3 +26,5 @@ You can then run the scripts in the second terminal. The scripts find the Libra 
 * `batchmint.sh` creates 100 addresses and mints 10 trillion libras to each
 * `balances.sh` lists the balance of each of the 100 addresses
 * `consolidate.sh` attempts to move all holdings from addresses 1 to 99 into address 0
+
+Note that the maximum number of libra one address can hold is 2⁶⁴ -1 / 1000000, and if you try to transfer in more than an address can hold, the transaction will silently fail.
