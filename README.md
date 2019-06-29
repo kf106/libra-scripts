@@ -22,3 +22,7 @@ $ sudo apt-get install xdotool
 ```
 
 You can then run the scripts in the second terminal. The scripts find the Libra CLI terminal and execute sequences of commands. They provide sample bash code that you can alter to issue whatever sequences of commands you like.
+
+* `batchmint.sh` creates 100 addresses and mints 10 trillion libras to each
+* `balances.sh` lists the balance of each of the 100 addresses
+* `consolidate.sh` attempts to move all holdings from addresses 1 to 99 into address 0
